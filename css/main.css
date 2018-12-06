@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Merriweather", serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+section img {
+  width: 40px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 2rem;
+}
