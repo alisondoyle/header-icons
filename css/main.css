@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   color: #fff;
 }
 
@@ -22,12 +22,11 @@ section {
 h1 {
   font-size: 2rem;
   background-color: #d05c2e;
-  padding-top: .4rem 0;
+  padding-bottom: 0;
   width: 100%;
   text-align: center;
-}
-
-img {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 header {
@@ -37,6 +36,7 @@ header {
 nav ul {
   display: flex;
   list-style-type: none;
+  padding: 0;
 
 }
 
@@ -48,7 +48,17 @@ nav li {
   border: 1px solid #a63f38;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: #fff;
+    padding: .4em 0;
+    display: block;
+}
+
+body {
+  margin: 0;
+}
+
+nav a:hover {
+background-color: #a63f38;
 }
